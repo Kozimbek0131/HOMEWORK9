@@ -1,0 +1,185 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+    font-family: 'urbanist';
+    list-style: none;
+    text-decoration: none;
+    
+}
+.body{
+    background: #FFFFFF;
+    gap: 30px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.container{
+    max-width: 1155px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.header{
+    padding: 32px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav--link a{
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    transition: 0.3s ease-in;
+}
+.header__button{
+    background-color: red;
+    color: #FFFFFF;
+    width: 129px;
+    height: 57px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.header__buttons:hover{
+    background-color: black;
+}
+.dot1{
+    color: #4EDAAC;
+}
+.dot2{
+    color:#4EDAAC ;
+    font-size: 20px;
+}
+.dot3{
+    color:#4EDAAC;
+    font-size: 13px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 14px 16px;
+}
+
+
+.hero-container-email{
+
+    position: relative; 
+     
+}
+
+
+.hero-container-email label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+
+.hero-container-email input{
+
+     
+    width: 100%;
+     padding: 10px;
+     height: 65px;
+      border: 1px solid #ccc;
+       border-radius: 5px;
+        margin-bottom: 10px; 
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.hero-container-email input::placeholder{
+    color:#FFFFFF ;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.hero-btn{
+   
+    position: absolute;
+     right: 10px;
+     width: 120px;
+     height: 53px;
+  top: 5px;
+      background-color: #F44545;
+      color: white;
+       border: none; 
+       padding: 10px 20px;
+        font-size: 21px; 
+        cursor: pointer; 
+        border-radius: 5px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.914);
+   
+}
+
+
+
+
+.hero__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__content--info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 510px;
+}
+.hero__content--info h1{
+    font-size: 54px;
+    line-height: 81px;
+    color: #021206;
+    font-family: 'righteous';
+    font-weight: 600px;
+}
+.hero__content--info p{
+    font-size: 21px;
+    line-height: 68px;
+    font-family: 'urbanist';
+}
+
+.hero-apps{
+   
+   display: flex;
+
+}
+.image{
+    margin: 15px;
+}
+
+.image-container{
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto; */
+position: relative;
+width: 746.63px; 
+height: 440.87px; 
+/* top: 231px; */
+background-color: #fff;
+ border: 1px solid #ccc; 
+/* display: flex; 
+justify-content: center;
+ align-items: center; */
+}
+.container-webs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#8ee6c9;    
+}
+.container-webs__img{
+    /* gap: 20px; */
+    margin: 20px;
+}
+       
+
+    
+       
+    
+  
